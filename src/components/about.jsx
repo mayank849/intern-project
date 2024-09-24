@@ -1,5 +1,7 @@
 import React from 'react';
 import aboutImg from '../assets/AboutImg.png'
+import member from '../assets/logo/member.png'
+import club from '../assets/logo/club.png'
 
 
 const About = () => {
@@ -35,14 +37,14 @@ const About = () => {
 
                        <div className='space-y-8'>
                         <div className='flex items-center gap-4'>
-                            <img src="/src/assets/logo/member.png" alt="" />
+                            <img src={member} alt="" />
                             <div>
                                 <h4 className='text-2xl text-neutralDGrey font-semibold'>2,245,341</h4>
                                 <p>Members</p>
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
-                            <img src="/src/assets/logo/club.png" alt="" />
+                            <img src={club} alt="" />
                             <div>
                                 <h4 className='text-2xl text-neutralDGrey font-semibold'>45,000</h4>
                                 <p>Clubs</p>
@@ -55,14 +57,14 @@ const About = () => {
                         
                      <div className='space-y-8'>
                         <div className='flex items-center gap-4'>
-                            <img src="/src/assets/logo/club.png" alt="" />
+                            <img src={club} alt="" />
                             <div>
                                 <h4 className='text-2xl text-neutralDGrey font-semibold'>7,245,341</h4>
                                 <p>Payments</p>
                             </div>
                         </div>
                         <div className='flex items-center gap-4'>
-                            <img src="/src/assets/logo/member.png" alt="" />
+                            <img src={member} alt="" />
                             <div>
                                 <h4 className='text-2xl text-neutralDGrey font-semibold'>2,563,341</h4>
                                 <p>Bookings</p>

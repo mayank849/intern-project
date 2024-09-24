@@ -1,16 +1,27 @@
 import React from 'react';
 import { MdDescription } from 'react-icons/md';
+import icon1 from '../assets/icon1.png'
+import icon2 from '../assets/icon2.png'
+import icon3 from '../assets/icon3.png'
+import company1 from '../assets/logo/company1.png'
+import company2 from '../assets/logo/company2.png'
+import company3 from '../assets/logo/company3.png'
+import company4 from '../assets/logo/company4.png'
+import company5 from '../assets/logo/company5.png'
+import company6 from '../assets/logo/comapny6.png'
+import company7 from '../assets/logo/company7.png'
+
 
 const Services = () => {
     const services = [
         {id: 1, title: "Membership Organisations", description: "Our membership management software provides full automation of membership renewals and payments",
-            image: "/src/assets/icon1.png"},
+            image: icon1 },
 
         {id: 2, title: "National Associations", description: "Our membership management software provides full automation of membership renewals and payments",
-                image: "/src/assets/icon2.png"},
+                image: icon2},
 
         {id: 3, title: "Clubs And Groups", description: "Our membership management software provides full automation of membership renewals and payments",
-                    image: "/src/assets/icon3.png"},
+                    image: icon3},
     ]
     return (
         <div className='md:px-14 px-4 py-16 max-w-screen-2xl mx-auto'>
@@ -19,13 +30,13 @@ const Services = () => {
                 <p className='text-neutralGrey'>We have been working with some Fortune 500+ clients</p>
                 {/* comapanies logo */}
                 <div className='my-12 flex flex-wrap justify-between items-center gap-8'>
-                    <img src="/src/assets/logo/company1.png" alt="" />
-                    <img src="/src/assets/logo/company2.png" alt="" />
-                    <img src="/src/assets/logo/company3.png" alt="" />
-                    <img src="/src/assets/logo/company4.png" alt="" />
-                    <img src="/src/assets/logo/company5.png" alt="" />
-                    <img src="/src/assets/logo/company6.png" alt="" />
-                    <img src="/src/assets/logo/company7.png" alt="" />
+                    <img src={company1} alt="" />
+                    <img src={company2} alt="" />
+                    <img src={company3} alt="" />
+                    <img src={company4} alt="" />
+                    <img src={company5} alt="" />
+                    <img src={company6} alt="" />
+                    <img src={company7} alt="" />
                 </div>
                 
             </div>
